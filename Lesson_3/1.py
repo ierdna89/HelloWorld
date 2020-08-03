@@ -23,8 +23,6 @@ def c_to_f():
 
 
 while True:
-    # print("""Tastati cifra: \n - \"1\" pentru a converti Fahrenheit in Celsius \n sau \n
-    # - \"2\" pentru a converti Celsius in Fahrenheit \n sau \n - oricare alta cifra pentru a iesi din program.""")
 
     tip_conversie = int(input(
         """\n Tastati cifra: \n - \"1\" pentru a converti Fahrenheit in Celsius, \n - \"2\" pentru a converti Celsius in Fahrenheit, \n - sau oricare alta cifra pentru a iesi din program. \n"""))
