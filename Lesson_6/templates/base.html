@@ -1,0 +1,19 @@
+<html>
+   <head>
+     {% if title %}
+        <title>{{ title }}</title>
+     {% else %}
+        <title>Home</title>
+     {% endif %}
+   </head>
+   <body>
+        <div>
+            Home: <a href="/index">Home</a>
+            Date: <a href="/date">Date</a>
+            Timezones: <a href="/timezones">Timezones</a>
+            | Your IP is: {{request.remote_addr}}
+        </div>
+       <hr>
+       {% block content %}{% endblock %}
+   </body>
+</html>
