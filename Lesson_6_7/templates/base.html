@@ -8,8 +8,10 @@
    </head>
    <body>
         <div>
-            Home: <a href="/index">Home</a>
+            Home: <a href="{{url_for('index')}}">Home</a>
             Date: <a href="/date">Date</a>
+            Sing Up: <a href="/sing_up">Sing up</a>
+            Login: <a href="/login">Login</a>
             Timezones: <a href="/timezones">Timezones</a>
             | Your IP is: {{request.remote_addr}}
         </div>
